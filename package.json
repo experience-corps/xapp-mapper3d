@@ -1,0 +1,24 @@
+{
+  "name": "project3d",
+  "version": "1.0.0",
+  "description": "multiple 3d asset viewer within Showpad",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "cd $(npm prefix)/src && browserify --entry index.js -o ../showpad/src/app.js",
+    "auth": "cd $(npm prefix)/showpad && npx showpad auth",
+    "serve": "cd $(npm prefix)/showpad && npx showpad experience serve",
+    "package": "cd $(npm prefix)/showpad && npx showpad experience package"
+  },
+  "dependencies": {
+    "jszip": "^3.2.1",
+    "request": "^2.88.0",
+    "three": "^0.105.2"
+  },
+  "devDependencies": {
+    "@showpad/sdk": "^0.8.2",
+    "browserify": "^16.2.3",
+    "eslint": "^6.0.1",
+    "eslint-config-google": "^0.13.0"
+  }
+}

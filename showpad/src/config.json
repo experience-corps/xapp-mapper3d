@@ -1,0 +1,97 @@
+{
+    "version": 1,
+    "labels": {
+        "item1": {
+            "value": "Model 1",
+            "description": "Model 1 Description"
+        },
+        "item1_position": {
+            "value": "6,2,0"
+        },
+        "item1_rotation": {
+            "value": ""
+        },
+        "item1_scale": {
+            "value": ""
+        },
+        "item2": {
+            "value": "Model 2",
+            "description": "Model 2 Description"
+        },
+        "item2_position": {
+            "value": "0,0,0"
+        },
+        "item2_rotation": {
+            "value": "4.71239,1.5708,0"
+        },
+        "item2_scale": {
+            "value": ".007,.007,.007"
+        },
+        "item3": {
+            "value": "Model 3",
+            "description": "Model 3 Description"
+        },
+        "item3_position": {
+            "value": "3,2.2,1"
+        },
+        "item3_rotation": {
+            "value": "1.5708,0,0"
+        },
+        "item3_scale": {
+            "value": ""
+        },
+        "item4": {
+            "value": "Model 4",
+            "description": "Model 4 Description"
+        },
+        "item4_position": {
+            "value": "-4.5,.5,-1"
+        },
+        "item4_rotation": {
+            "value": ""
+        },
+        "item4_scale": {
+            "value": ".6,.6,.6"
+        },
+        "item5": {
+            "value": "Model 5",
+            "description": "Model 5 Description"
+        },
+        "item5_position": {
+            "value": ""
+        },
+        "item5_rotation": {
+            "value": ""
+        },
+        "item5_scale": {
+            "value": ""
+        }
+    },
+    "contents": {
+        "item1": {
+            "model": {"type": "asset", "description":"Item 1's zipped .dae file",
+                "value":["b556af566ac8ba9f735b109396467e79"]},
+            "page_link": { "type": "url", "description":"Page link for item 1"}
+        },
+        "item2": {
+            "model": {"type": "asset", "description":"Item 2's zipped .dae file",
+                "value":["d046d1afb7498eb45852040404502ad7"]},
+            "page_link": { "type": "url", "description":"Page link for item 2"}
+        },
+        "item3": {
+            "model": {"type": "asset", "description":"Item 3's zipped .dae file",
+                "value":["f003fba082065f748746408b268d4eb0"]},
+            "page_link": { "type": "url", "description":"Page link for item 3"}
+        },
+        "item4": {
+            "model": {"type": "asset", "description":"Item 4's zipped .dae file",
+                "value":["dce23a9431598ad68e25634d1b708229"]},
+            "page_link": { "type": "url", "description":"Page link for item 4"}
+        },
+        "item5": {
+            "model": {"type": "asset", "description":"Item 5's zipped .dae file",
+                "value":[""]},
+            "page_link": { "type": "url", "description":"Page link for item 5"}
+        }
+    }
+}
